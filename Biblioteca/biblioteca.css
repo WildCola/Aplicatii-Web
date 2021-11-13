@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+    background-color: rgb(255,236,200);
+}
+
+.topbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 30px;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    height: 120px;
+    width: 100%;
+}
+
+.topbar div{
+    text-align: center;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 250px;
+}
+
+.topbar div:hover{
+    opacity: 60%;
+}
+
+#title{
+    min-width: 400px;
+}
+
+.topbar img{
+    margin-top: 15px;
+    width: 70px;
+}

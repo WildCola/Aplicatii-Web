@@ -22,7 +22,6 @@ body{
 .topbar div{
     text-align: center;
     margin: 20px;
-    margin-left: 40px;
 }
 
 .topbar img{
@@ -30,7 +29,8 @@ body{
 }
 
 #titlu{
-    width: 400px;
+    width: 200px;
+    margin-left: 45px;
     min-width: 380px;
     font-size: 60px;
     color: white;
@@ -38,9 +38,12 @@ body{
 }
 
 #back{
-    min-width: 200px;
-    font-size: 30px;
-    user-select: none;
+    margin-top: 10px;
+    margin-right: 45px;
+}
+
+#back img{
+    width: 230px;
 }
 
 #back:hover{

@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+a:link{
+    color: gold;
+    text-decoration: none;
+}
+
+a:visited{
+    color:gold;
+    text-decoration: none;
+}
+
 body{
     font-family: monospace;
     background-color: rgb(255,236,200);
@@ -24,17 +34,35 @@ body{
     margin: 10px;
     min-width: 200px;
     max-width: 250px;
+    font-size: 20px;
 }
 
 .topbar div:hover{
     opacity: 60%;
 }
 
+.topbar p{
+    margin-top: 10px;
+    color: gold;
+    font-size: 70px;
+    font-family: ru;
+}
+
 #title{
     min-width: 400px;
+}
+
+#title img{
+    margin: 0px;
+    width: 240px;
 }
 
 .topbar img{
     margin-top: 15px;
     width: 70px;
+}
+
+@font-face {
+    font-family: ru;
+    src: url(fonts/RussianLand.ttf);
 }

@@ -67,3 +67,16 @@ body{
     font-family: ru;
     src: url(fonts/RussianLand.ttf);
 }
+
+@media(max-width: 1400px){
+    #about{
+        display: none;
+    }
+    #login{
+        display: none;
+    }
+    .topbar{
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 10px;
+    }
+}

@@ -40,6 +40,7 @@ body{
 #back{
     min-width: 200px;
     font-size: 30px;
+    user-select: none;
 }
 
 #back:hover{

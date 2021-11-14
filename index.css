@@ -55,6 +55,7 @@ body{
 #title img{
     margin: 0px;
     width: 240px;
+    user-select: none;
 }
 
 .topbar img{
